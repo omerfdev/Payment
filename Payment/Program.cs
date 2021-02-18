@@ -6,13 +6,14 @@ namespace Payment
     {
         static void Main(string[] args)
         {
-            double maas, zamOran, zamliMaas;
-            Console.Write("Maaşı girin : ");
-            maas = Convert.ToDouble(Console.ReadLine());
-            Console.Write("Zam oranını girin (%) : ");
-            zamOran = Convert.ToDouble(Console.ReadLine());
-            zamliMaas = maas + (maas * zamOran / 100);
-            Console.WriteLine("Zamlı maaş : {0}", zamliMaas);
+            Console.Write(" WELCOME TO SALARY INCREASE CALCULATOR  ");
+            double salary, raiserate, increasedsalary;
+            Console.Write("Please Enter Salary: ");
+            salary = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Please Enter Raise Rate (%) : ");
+            raiserate = Convert.ToDouble(Console.ReadLine());
+            increasedsalary = salary + (salary * raiserate / 100);
+            Console.WriteLine("Zamlı maaş : {0}", increasedsalary);
             Console.ReadKey();
         }
     }
