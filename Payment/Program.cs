@@ -6,6 +6,7 @@ namespace Payment
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("{0:r}", DateTime.Now);
             Char Lowpage;
         OMERFDEV:
             Console.Write(" WELCOME TO SALARY INCREASE CALCULATOR  ");
